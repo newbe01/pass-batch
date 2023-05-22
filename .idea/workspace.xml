@@ -122,7 +122,30 @@
       <recent name="com.fastcampus.pass.repository.packaze" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PackageRepositoryTest.test_updateCountAndPeriod">
+  <component name="RunManager" selected="Gradle.PackageRepositoryTest.test_delete">
+    <configuration name="PackageRepositoryTest.test_delete" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.fastcampus.pass.repository.packaze.PackageRepositoryTest.test_delete&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PackageRepositoryTest.test_findByCreatedAtAfter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -208,6 +231,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PackageRepositoryTest.test_delete" />
         <item itemvalue="Gradle.PackageRepositoryTest.test_updateCountAndPeriod" />
         <item itemvalue="Gradle.PackageRepositoryTest.test_findByCreatedAtAfter" />
         <item itemvalue="Gradle.PackageRepositoryTest.test_save" />
