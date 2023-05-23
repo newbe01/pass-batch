@@ -58,7 +58,7 @@ public class ExpirePassesJobConfig {
                 .name("expirePassesItemReader")
                 .entityManagerFactory(entityManagerFactory)
                 .queryString("select p from PassEntity p where p.status = :status and p.endedAt <= :endedAt")
-                .parameterValues(Map.of("status", PassStatus.PROGRESS, "endedAt", LocalDateTime.now()))
+                .parameterValues(Map.of("status", PassStatus.PROGRESSED, "endedAt", LocalDateTime.now()))
                 .build();
     }
 

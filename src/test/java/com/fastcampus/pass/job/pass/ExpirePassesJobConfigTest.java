@@ -61,7 +61,7 @@ class ExpirePassesJobConfigTest {
             PassEntity passEntity = new PassEntity();
             passEntity.setPackageSeq(1);
             passEntity.setUserId("A" + 1000000 + i);
-            passEntity.setStatus(PassStatus.PROGRESS);
+            passEntity.setStatus(PassStatus.PROGRESSED);
             passEntity.setRemainingCount(random.nextInt(11));
             passEntity.setStartedAt(now.minusDays(60));
             passEntity.setEndedAt(now.minusDays(1));
