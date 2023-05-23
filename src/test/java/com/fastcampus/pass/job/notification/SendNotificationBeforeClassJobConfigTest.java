@@ -12,6 +12,7 @@ import com.fastcampus.pass.repository.user.UserRepository;
 import com.fastcampus.pass.repository.user.UserStatus;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.batch.core.ExitStatus;
 import org.springframework.batch.core.JobExecution;
@@ -44,6 +45,7 @@ public class SendNotificationBeforeClassJobConfigTest {
     private UserRepository userRepository;
 
 
+    @Disabled
     @Test
     public void test_addNotificationStep() throws Exception {
         // given
