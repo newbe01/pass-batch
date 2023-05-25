@@ -1,5 +1,7 @@
 package com.fastcampus.pass.repository.packaze;
 
+import com.fastcampus.pass.config.TestBatchConfig;
+import com.fastcampus.pass.job.pass.ExpirePassesJobConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -9,6 +11,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.context.ContextConfiguration;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -18,6 +21,7 @@ import static org.assertj.core.api.Assertions.*;
 @Slf4j
 @SpringBootTest
 @ActiveProfiles("test")
+@ContextConfiguration(classes = {ExpirePassesJobConfig.class, TestBatchConfig.class})
 class PackageRepositoryTest {
 
     @Autowired

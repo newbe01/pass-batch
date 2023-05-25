@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="47368d7d-5e99-4553-89ed-f0ee9de5ae16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/pass/config/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/pass/config/BatchConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/pass/job/notification/SendNotificationBeforeClassJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/pass/job/notification/SendNotificationBeforeClassJobConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/pass/job/pass/ExpirePassesJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/pass/job/pass/ExpirePassesJobConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastcampus/pass/job/notification/SendNotificationBeforeClassJobConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/pass/job/notification/SendNotificationBeforeClassJobConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastcampus/pass/PassBatchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/pass/PassBatchApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastcampus/pass/repository/packaze/PackageRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/pass/repository/packaze/PackageRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
